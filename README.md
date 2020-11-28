@@ -1,2 +1,1 @@
-# CFG
-Cool Website
+# ariannazz.github.io
