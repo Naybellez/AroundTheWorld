@@ -1,0 +1,73 @@
+main {
+	font-family: Garamond;
+		   width: 90%;
+		   height: 4 rem;
+		   padding: 6 rem;
+	 margin-right: auto;
+	 margin-left: 5%; 
+		   margin-right: 5%;
+		   align-items: center;
+} 
+
+header h1,p{text-align: center; } 
+
+.carousel-slide {
+   margin-top: 40%; 
+   margin-left: 5%;
+   margin-right: 5%; 
+   align-self: center;
+   padding: 10%;
+   
+}
+
+
+
+.d-block w-100 {
+   padding: 10%;
+   align-items: center;
+}
+
+
+
+.carousel-inner {
+   align: center;
+   padding: 1 rem;
+
+}
+
+
+.active {
+
+}
+
+.carousel-item {
+   margin-top: 20%;
+   margin-right: 5%;
+   margin-left: 5%;
+   align-self: centre;
+
+}
+
+.d-block w-100 {
+
+}
+
+.carousel-control-prev-icon {
+
+}
+
+.sr-only {
+
+}
+
+.carousel-control-prev {
+
+}
+
+.carousel-control-next {
+   
+}
+
+.buttonn {
+   align-items: end;
+}
