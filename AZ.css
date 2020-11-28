@@ -62,4 +62,23 @@ footer {
     background-color: white;
    }
 
- 
+   nav li {
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    }
+    
+    nav ul li ul {
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+      display: none;
+    }
+    
+    nav ul li:hover > ul,
+    ul li ul:hover {
+      visibility: visible;
+      opacity: 1;
+      display: block;
+    }
