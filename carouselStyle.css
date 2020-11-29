@@ -9,21 +9,32 @@ main {
          align-items: center;
 } 
 
-header h1,p{text-align: center; } 
+head {
+      font-family: Garamond;
+            width: 90%;
+            height: 4rem;
+            padding: 6rem;
+             margin-right: auto;
+            margin-left: 5%; 
+            margin-right: 5%;
+            align-items: center;
+   } 
+
+header h1,p{text-align: center; font-family: Garamond} 
 
 .carousel-slide {
-   margin-top: 40%; 
+   margin-top: 2%; 
    margin-left: 5%;
    margin-right: 5%; 
    align-self: center;
-   padding: 10%;
+   padding: 5%;
 
 }
 
 
 
 .d-block w-100 {
-   padding: 10%;
+   padding: 5%;
    align-items: center;
 }
 
@@ -31,7 +42,7 @@ header h1,p{text-align: center; }
 
 .carousel-inner {
    align-self: center;
-   height: 10%;
+   height: 5%;
    width: 20%;
    padding: 3%;
 
@@ -48,11 +59,11 @@ h3 {
 }
 
 .carousel-item {
-   margin-top: 20%;
+   margin-top: 3%;
    margin-right: 5%;
    margin-left: 5%;
    align-self: center;
-   height: 20%;
+   height: 7%;
    width: 30%;
    object-fit: cover;
 
@@ -75,3 +86,61 @@ h3 {
 .carousel-control-right {
    
 }
+
+.title {
+   text-align: center;
+   overflow: hidden;
+   background-color: white;
+ }
+ 
+ nav {
+   background-color: white;
+   display: inline-block;
+   text-align: center;
+   width: 100%;
+ }
+ 
+ nav li {
+ display: inline-block;
+ position: relative;
+ padding: 0.6rem 0.8rem;
+ }
+ 
+ nav ul {
+   margin: 0;
+   padding: 0;
+ }
+ 
+ nav a {
+   text-decoration: none;
+   color: black;
+ }
+ 
+ .dropdown {
+   position: absolute;
+   left: 0;
+   display: none;
+   background-color: #FFECFF;
+   margin-top: 0.6rem;
+ }
+ 
+ .dropdown li {
+   width: 100%;
+   background-color: #FFECFF;
+ }
+ 
+ nav ul li:hover > ul,
+ ul li ul:hover {
+   visibility: visible;
+   opacity: 1;
+   display: block;
+ }
+ 
+ nav li:hover {
+   background-color: #FFECFF;
+ }
+ 
+ .dropdown li:hover {
+   background-color: #FFC3FF;
+ }
+ 
