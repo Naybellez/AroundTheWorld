@@ -37,6 +37,10 @@ header h1,p{text-align: center; }
 
 }
 
+h3 {
+   text-shadow: 2px 2px grey;
+
+}
 
 
 .active {
