@@ -99,7 +99,7 @@ h3 {
    color: black;
  }
  
- .dropdown {
+ .drop-down {
    position: absolute;
    left: 0;
    display: none;
@@ -107,7 +107,7 @@ h3 {
    margin-top: 0.6rem;
  }
  
- .dropdown li {
+ .drop-down li {
    width: 100%;
    background-color: #FFECFF;
  }
