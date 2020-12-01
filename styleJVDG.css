@@ -1,0 +1,158 @@
+body {
+    font-family: 'Garamond';
+}
+
+/* individual page css */
+.individual {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.BildText {
+    display: inline-block;
+    padding-bottom: 2%;
+}
+
+.BildText img {
+    float: left;
+    width: 50%;
+    height: auto;
+}
+
+.BildText .textbox {
+    float: left;
+    width: 45%;
+    text-align: justify;
+    margin-left: 1%;
+}
+
+.BildBild {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    align-items: center;
+    margin-bottom: 3%;
+    display: inline-block;
+}
+
+.BildBild img {
+    width: 49%;
+    height: auto;   
+}
+
+.Bild {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.Bild img {
+    width: 100%;
+    height: auto;
+}
+
+article .textbox {
+    display: inline-block;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+/* about page css */
+.aboutus {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutus p {
+    width: 45%;
+    padding: 0.1rem;
+    float: left;
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.aboutus img {
+    width: 45%;
+    padding: 0.1rem;
+    float: right;
+}
+
+strong {
+    font-weight: bold;
+}
+
+/* header footer css */
+footer {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+    width: 100%;
+}
+
+.title {
+    text-align: center;
+    overflow: hidden;
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+nav li {
+    display: inline-block;
+  	position: relative;
+    padding: 0.6rem 0.8rem;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown {
+    position: absolute;
+    left: 0;
+    display: none;
+    background-color: #FFECFF;
+    margin-top: 0.6rem;
+}
+
+.dropdown li {
+    width: 100%;
+    background-color: #FFECFF;
+}
+
+nav ul li:hover > ul,
+ul li ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+nav li:hover {
+    background-color: #FFECFF;
+}
+
+.dropdown li:hover {
+    background-color: #FFC3FF;
+}
