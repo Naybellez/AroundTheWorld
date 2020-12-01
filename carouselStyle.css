@@ -7,14 +7,6 @@ main {
       align-items: center;
 } 
 
-head {
- 
-   } 
-
-header h1,p{
-text-align: center; 
-font-family: Garamond;
-} 
 
 .carousel-slide {
    margin-top: 2%; 
