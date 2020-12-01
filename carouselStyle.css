@@ -105,6 +105,7 @@ h3 {
    display: none;
    background-color: #FFECFF;
    margin-top: 0.6rem;
+   z-index: 1
  }
  
  .drop-down li {
