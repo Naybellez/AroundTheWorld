@@ -67,14 +67,12 @@ h3 {
 }
 
 .title {
-  font-family: Garamond;
    text-align: center;
    overflow: hidden;
    background-color: white;
  }
  
  nav {
-  font-family: Garamond;
    background-color: white;
    display: inline-block;
    text-align: center;
